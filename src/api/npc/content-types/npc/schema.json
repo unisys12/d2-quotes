@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "npcs",
+  "info": {
+    "singularName": "npc",
+    "pluralName": "npcs",
+    "displayName": "Npc",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 35,
+      "unique": true,
+      "minLength": 3
+    }
+  }
+}
